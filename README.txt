@@ -15,9 +15,8 @@ Python for data manipulation and analysis
 pandas for data loading and cleaning
 matplotlib and seaborn for data visualization
 openpyxl for Excel report generation
+
 Project Structure
-bash
-Copy code
 sales_analysis/
 ├── data_loader.py           # Script for loading and cleaning data
 ├── analysis.py              # Script for performing sales analysis
@@ -32,40 +31,22 @@ sales_analysis/
 └── sales_analysis_report.xlsx # Generated Excel report with analysis results
 Installation
 To run this project, you'll need Python and several libraries. You can install the necessary dependencies using the following command:
-
-bash
-Copy code
 pip install pandas matplotlib seaborn openpyxl
+
 How to Run the Project
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/Karkia2/SalesDataAnalysis.git
-Navigate to the project directory:
 
-bash
-Copy code
+Navigate to the project directory:
 cd SalesDataAnalysis
 Ensure the dataset (sales_data.csv) is in the project directory.
 
 Run the main script:
-
-bash
-Copy code
 python main.py
 The script will perform the analysis and generate visualizations.
 The results will be saved as:
 sales_analysis_report.xlsx (an Excel file with detailed analysis).
-PNG files of the generated charts.
-Visualizations
-1. Sales per Month
 
-2. Sales by City
-
-3. Sales by Product
-
-4. Sales by Hour
 
 Key Insights
 Monthly Sales Trends: December had the highest sales, while September had the lowest.
